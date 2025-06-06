@@ -25,5 +25,7 @@ jobs:
     - name: Run EsLint
       run: npm run lint
     
+    - name: Test Build (Syntax check)
+      run: npm run build:test
     # - name: Lancer le build
     #   run: npm run build
